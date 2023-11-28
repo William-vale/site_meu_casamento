@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 4660px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-menu {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 1;
+}
+
+
+.navbar-menu header {
+    width: 92.5%;
+    text-transform: uppercase;
+    font-size: 11px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-device-width: 768px) {
+    .navbar-menu {
+        height: 70px;
+    }
+}
+
+header a {
+    height: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+header #home {
+    color: #034094;
+}
+
+@media (min-device-width: 1024px) {
+    .navbar-menu header {
+        font-size: 15px;
+    }
+}
+
+@media (min-device-width: 1440px) {
+    .navbar-menu header {
+        font-size: 18px;
+    }
+}
+
+@media (min-device-width: 1920px) {
+    .navbar-menu header {
+        font-size: 27px;
+    }
+}
+
+/* Mobile */
+@media (max-device-width: 425px) {
+    body {
+        width: 425px;
+    }
+}
+
+@media (max-device-width: 375px) {
+
+}
+
+@media (max-device-width: 320px) {
+
+}

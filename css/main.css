@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+main {
+    width: 100%;
+    height: 4659px;
+    
+    font-family: 'Inter', sans-serif;
+}
+
+/* Home */
+main #home-principal {
+    width: 100%;
+    height: 110vh;
+}
+
+main #home-principal .image {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #home-principal .image h1 {
+    width: 100%;
+    margin-top: 145px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 3px;
+    opacity: 0.55;
+    z-index: 1;
+}
+
+main #home-principal .image h2 {
+    opacity: 0.55;
+    z-index: 1;
+    font-size: 19px;
+    text-transform: uppercase;
+
+}
+
+.image img {
+    width: 98.7vw;
+    image-rendering: auto;
+    opacity: 0.35;
+    display: block;
+    position: absolute;
+} 
+
+/* Nossa História */
+main #nossa-história {
+    width: 100%;
+    height: 565px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nossa-história .historia {
+    width: 80%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#nossa-história .historia h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3A4049;
+}
+
+#nossa-história .historia .casando {
+    color: #D6BB6E;
+}
+
+#nossa-história .historia hr {
+    width: 50px;
+    height: 5px;
+    background: black;
+    border: none;
+}
+
+#nossa-história .historia p {
+    text-align: justify;
+}
+
+#nossa-história .historia h3 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;    
+}
+
+
+/* Galeria de Fotos */
+#galeria-fotos {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+#galeria-fotos .foto {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#galeria-fotos .seta {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+    user-select: none;
+    top: 260%;
+    z-index: 1;
+    overflow: none;
+}
+
+#galeria-fotos .seta:hover {
+    color: rgb(239, 186, 186);
+}
+
+.esquerda {
+    left: 10%;
+    z-index: 2;
+}
+
+.direita {
+    right: 10%;
+    z-index: 2;
+}
+
+#galeria-fotos .fotos {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/* Info Casamento */
+#info-casamento {
+    width: 100%;
+    height: 1180px;
+    background-color: #F7E1F2;
+}
+
+#info-casamento .nosso-casamento {
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosso-casamento .section-info {
+    width: 70%;
+    height: 80%;
+    padding: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-info h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3A4049;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+
+.section-info .info {
+    width: 50%;
+    height: 70%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-info .info div:not(.barra) {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-info .info .barra {
+    background-color: black;
+    width: 2px;
+    height: 200px;
+}
+
+.info .quando{
+    align-items: end;
+}
+
+.info .quando h3{
+    font-size: 21.5px;
+}
+
+.info .quando h6{
+    font-size: 10.5px;
+    font-weight: 400;
+}
+
+.info .onde {
+    margin-top: 10px;
+}
+
+.info .onde h3 {
+    font-size: 21.5px;
+}
+
+.info .onde h6 {
+    font-size: 10.5px;
+    font-weight: 400;
+}
+
+#info-casamento .como-chegar {
+    width: 100%;
+    height: 65%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.como-chegar h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3A4049;
+    text-align: center;
+}
+
+/* Lista de Presentes */
+#lista-presentes {
+    width: 100%;
+    height: 749px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lista-presentes .background {
+    width: 100%;
+    height: 749px;
+    position: absolute;
+    opacity: 0.4;
+}
+
+#lista-presentes h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3A4049;
+    text-align: center;
+}
+
+#lista-presentes .presentes{
+    width: 90%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentes .pix {
+    width: 40%;
+    height: 70%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.presentes .texto {
+    width: 60%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    font-size: 20px;
+}
+
+/* Confirmação de Presença */
+#confirmar-presenca {
+    width: 100%;
+    height: 791px;
+    
+    background-color: #F6E1F2;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* #confirmar-presenca *{
+    border: 1px solid;
+} */
+
+#confirmar-presenca h1 {
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3A4049;
+    text-align: center;
+    padding-top: 30px;    
+}
+
+#confirmar-presenca .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#confirmar-presenca .text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#confirmar-presenca .text3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#confirmar-presenca form {
+    height: 30%;
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+form div {
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form div input {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+}
+
+form div input::placeholder {
+    padding: -20px;
+    color: #1D2025;
+}
+
+form button {
+    border-radius: 50px;
+    background: #1D2025;    
+    border: none;
+    height: 50px;
+    padding: 13px 46px 13.2px 38px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media (max-device-width: 1024px) {
+    main #home-principal {
+        width: 100%;
+        height: 90vh;
+    }
+    
+    main #home-principal .image h1{
+        font-size: 40px;
+    }
+    
+    main #home-principal .image h2{
+        font-size: 17px;
+    }
+
+    main #galeria-fotos .seta {
+        top: 243%;
+    }
+
+    main #info-casamento .nosso-casamento .section-info .info {
+        width: 70%;
+    }    
+}
+
+@media (max-device-width: 768px) {
+    main #home-principal {
+        width: 100%;
+        height: 70vh;
+    }
+    
+    main #home-principal .image h1{
+        font-size: 35px;
+    }
+    
+    main #home-principal .image h2{
+        font-size: 15px;
+    }
+    
+    main #nossa-história .historia{
+        height: 100%;
+    }
+
+    main #galeria-fotos .seta {
+        top: 222%;
+    }
+
+    main #info-casamento .nosso-casamento .section-info .info {
+        width: 90%;
+    }
+
+    main #lista-presentes .pix {
+        height: 50%;
+    }
+
+    main #lista-presentes .pix img {
+        width: 80%;
+    }
+    
+    main #lista-presentes .texto {
+        font-size: 15px;
+    }
+}
