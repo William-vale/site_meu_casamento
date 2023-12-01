@@ -263,9 +263,30 @@
     }
 }
 
+@media (max-device-width: 1280px) and (max-device-height: 800px){
+    body, main {
+        width: 1280px;
+        height: 4888px;
+    }
+
+    main #home-principal {
+        height: 79vh;
+    }
+
+    #galeria-fotos, 
+    #galeria-fotos .foto {
+        height: 106vh;
+    }
+
+    #galeria-fotos .seta {
+        font-size: 50px;
+        top: 213%;
+    }
+}
+
 @media (max-device-width: 1024px) and (max-device-height: 1366px){
     body, main {
-        height: 4469px;
+        height: 4888px;
     }
 
     main #home-principal {
