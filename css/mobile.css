@@ -322,6 +322,35 @@
     }
 }
 
+@media (max-device-width: 430px) and (max-device-height: 932px) {
+    body, main {
+        height: 4647px;
+    }
+    
+    main #home-principal {
+        height: 57vh;
+    }
+
+    main #nossa-história .historia {
+        margin-top: -264px;
+    }
+
+    main #galeria-fotos {
+        height: 10%;
+    }
+    
+    main #galeria-fotos .foto {
+        height: 475px;
+    }
+
+    main #galeria-fotos .seta {
+        top: 177%;
+    }
+
+    main #galeria-fotos .direita {
+        right: -225px;
+    }
+}
 
 @media (max-device-width: 425px) and (max-device-height: 896px){
     body, main {
