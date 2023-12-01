@@ -585,3 +585,33 @@
         height: 60px;
     }
 }
+
+@media (max-device-width: 280px) and (max-device-height: 653px){
+    body, main {
+        height: 4522px;
+    }
+    
+    main #home-principal {
+        height: 61vh;
+    }
+
+    main #nossa-história {
+        height: 872px;
+    }
+
+    main #galeria-fotos .foto {
+        height: 80vh;
+    }
+
+    main #galeria-fotos {
+        height: 521px;
+    }
+
+    main #galeria-fotos .seta {
+        top: 216%;
+    }
+
+    main #galeria-fotos .direita {
+        right: -344px;
+    }
+}
