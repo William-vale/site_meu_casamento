@@ -292,17 +292,17 @@
     }
 }
 
-@media (max-device-width: 768px){
+@media (max-device-width: 768px) and (max-device-height: 1024px){
     body, main {
-        height: 4320px;
+        height: 4289px;
     }
 
     main #home-principal {
-        height: 77vh;
+        height: 38vh;
     }
-
+    
     main #home-principal .image {
-        height: 89%;
+        height: 99%;
     }
 
     main #nossa-história {
@@ -310,16 +310,18 @@
     }
 
     #galeria-fotos {
-        height: 90vh;
+        height: 50vh;
     }
 
     #galeria-fotos .foto {
-        height: 92vh;
+        height: 50vh;
+    }
+    
+    main #galeria-fotos .seta {
+        top: 122%;
     }
 
-    main #galeria-fotos .seta {
-        top: 236%;
-    }
+    
 }
 
 @media (max-device-width: 430px) and (max-device-height: 932px) {
