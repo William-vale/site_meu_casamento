@@ -293,6 +293,31 @@
     }
 }
 
+@media (max-device-width: 1024px) and (max-device-height: 600px){
+    body {
+        width: 1035px;
+    }
+
+    body, main {
+        height: 4503px;
+    }
+    
+    main #home-principal {
+        height: 76vh;
+    }
+
+    #galeria-fotos,
+    #galeria-fotos .foto {
+        height: 113vh;
+    }
+
+    main #galeria-fotos .seta {
+        top: 239%;
+    }
+
+    
+}
+
 @media (max-device-width: 820px) and (max-device-height: 1180px){
     body, main {
         height: 4294px;
