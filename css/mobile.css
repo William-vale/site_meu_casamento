@@ -383,6 +383,10 @@
         height: 4673px;
     }
 
+    main #home-principal {
+        height: 57vh;
+    }
+    
     main #nossa-história {
         height: 900px;
     }
@@ -400,7 +404,7 @@
     }
 
     main #galeria-fotos .seta {
-        top: 250%;
+        top: 230%;
     }
 
     main #galeria-fotos .direita{
