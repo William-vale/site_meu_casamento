@@ -323,13 +323,17 @@
 }
 
 
-@media (max-device-width: 425px){
+@media (max-device-width: 425px) and (max-device-height: 896px){
     body, main {
-        height: 4320px;
+        height: 4644px;
     }
 
+    main #home-principal {
+        height: 39vh;
+    }
+    
     main #home-principal .image h1{
-        margin-top: 50px;
+        margin-top: 137px;
     }
 
     main #nossa-história {
@@ -341,7 +345,7 @@
     }
     
     main #galeria-fotos{
-        height: 342px;
+        height: 545px;
     }
     
     main #galeria-fotos .foto {
