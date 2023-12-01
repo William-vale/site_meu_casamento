@@ -263,9 +263,9 @@
     }
 }
 
-@media (max-device-width: 1024px){
+@media (max-device-width: 1024px) and (max-device-height: 1366px){
     body, main {
-        height: 4500px;
+        height: 4469px;
     }
 
     main #home-principal {
@@ -281,14 +281,15 @@
     }
 
     main #galeria-fotos .seta {
-        top: 187%;
+        top: 102%;
     }
     #galeria-fotos {
         height: 92vh;
     }
 
+    #galeria-fotos,
     #galeria-fotos .foto {
-        height: 92vh;
+        height: 49vh;
     }
 }
 
