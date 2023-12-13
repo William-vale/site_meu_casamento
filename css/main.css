@@ -424,6 +424,103 @@ form button {
     cursor: pointer;
 }
 
+@media (max-device-width: 1280px) and (max-device-height: 800px){
+    body, main {
+        width: 1280px;
+        height: 4888px;
+    }
+
+    main #home-principal {
+        height: 79vh;
+    }
+
+    #galeria-fotos, 
+    #galeria-fotos .foto {
+        height: 106vh;
+    }
+
+    #galeria-fotos .seta {
+        font-size: 50px;
+        top: 213%;
+    }
+}
+
+@media (max-device-width: 1024px) and (max-device-height: 1366px){
+    body, main {
+        height: 4888px;
+    }
+
+    main #home-principal {
+        height: 61vh;
+    }
+
+    main #home-principal .image {
+        height: 112%;
+    }
+    
+    #nossa-história .historia{
+        margin-top: 20px;
+    }
+
+    main #galeria-fotos .seta {
+        top: 102%;
+    }
+    #galeria-fotos {
+        height: 92vh;
+    }
+
+    #galeria-fotos,
+    #galeria-fotos .foto {
+        height: 49vh;
+    }
+}
+
+@media (max-device-width: 1024px) and (max-device-height: 600px){
+    body {
+        width: 1035px;
+    }
+
+    body, main {
+        height: 4503px;
+    }
+    
+    main #home-principal {
+        height: 76vh;
+    }
+
+    #galeria-fotos,
+    #galeria-fotos .foto {
+        height: 113vh;
+    }
+
+    main #galeria-fotos .seta {
+        top: 239%;
+    }    
+}
+
+@media (max-device-width: 820px) and (max-device-height: 1180px){
+    body, main {
+        height: 4294px;
+    }
+    
+    main #home-principal {
+        height: 31vh;
+    }
+
+    main #nossa-história {
+        height: 594px;
+    }
+
+    #galeria-fotos,
+    #galeria-fotos .foto {
+        height: 45vh;
+    }
+
+    main #galeria-fotos .seta {
+        top: 108%;
+    }   
+}
+
 @media (max-device-width: 1024px) {
     main #home-principal {
         width: 100%;
