@@ -1,12 +1,3 @@
-
-
-
-@media (max-device-width: 768px) {
-    .navbar-menu {
-        display: none;
-    }
-}
-
 @media (max-device-width: 1280px) and (max-device-height: 800px){
     body, main {
         width: 1280px;
@@ -78,9 +69,7 @@
 
     main #galeria-fotos .seta {
         top: 239%;
-    }
-
-    
+    }    
 }
 
 @media (max-device-width: 820px) and (max-device-height: 1180px){
@@ -133,6 +122,12 @@
     
     main #galeria-fotos .seta {
         top: 122%;
+    }
+}
+
+@media (max-device-width: 768px) {
+    .navbar-menu {
+        display: none;
     }
 }
 
