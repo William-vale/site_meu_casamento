@@ -1,4 +1,12 @@
 
+
+
+@media (max-device-width: 768px) {
+    .navbar-menu {
+        display: none;
+    }
+}
+
 @media (max-device-width: 1280px) and (max-device-height: 800px){
     body, main {
         width: 1280px;
