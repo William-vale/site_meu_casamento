@@ -514,7 +514,7 @@
 
 @media (max-device-width: 412px) and (max-device-height: 914px){
     body, main {
-        height: 4560px;
+        height: 4632px;
     }
 
     main #home-principal {
@@ -536,31 +536,31 @@
     }
 
     main #home-principal {
-        height: 57vh;
+        height: 59vh;
     }
-    
+
     main #nossa-história {
         height: 900px;
     }
-
-    main #nossa-história .historia {
-        margin-top: -28px;
-    }
     
+    main #nossa-história .historia {
+        margin-top: -30px;
+    }
+
     main #galeria-fotos{
-        height: 406px;
+        height: 521px;
     }
     
     main #galeria-fotos .foto {
-        height: 61vh;
+        height: 78vh;
     }
 
     main #galeria-fotos .seta {
-        top: 230%;
+        top: 234%;
     }
-
-    main #galeria-fotos .direita{
-        right: -263px;
+    
+    main #galeria-fotos .direita {
+        right: -328px;
     }
 
     main #info-casamento .como-chegar {
