@@ -165,31 +165,40 @@
 
 @media (max-device-width: 430px) and (max-device-height: 932px) {
     body, main {
-        height: 4647px;
+        height: 4506px;
     }
     
     main #home-principal {
         height: 57vh;
     }
 
+    main #nossa-história {
+        margin-bottom: -115px;
+        height: 776px;
+    }
+    
     main #nossa-história .historia {
         margin-top: -264px;
     }
-
+    
     main #galeria-fotos {
-        height: 10%;
+        height: 11%;
     }
     
     main #galeria-fotos .foto {
-        height: 475px;
+        height: 520px;
     }
-
+    
     main #galeria-fotos .seta {
-        top: 177%;
+        top: 157%;
     }
 
     main #galeria-fotos .direita {
-        right: -225px;
+        right: -262px;
+    }
+
+    #confirmar-presenca .text1 {
+        height: 16%;
     }
 }
 
