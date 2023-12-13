@@ -512,6 +512,29 @@
     }
 }
 
+@media (max-device-width: 414px) and (max-device-height: 896px){
+    body, main {
+        height: 4592px;
+    }
+    
+    main #galeria-fotos {
+        height: 522px;
+    }
+    
+    main #galeria-fotos .foto {
+        height: 58vh;
+    }
+
+    main #galeria-fotos .seta {
+        top: 169%;
+        font-size: 52px;
+    }
+
+    main #galeria-fotos .direita {
+        right: -281px;
+    }
+}
+
 @media (max-device-width: 412px) and (max-device-height: 914px){
     body, main {
         height: 4632px;
