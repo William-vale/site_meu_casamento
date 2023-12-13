@@ -280,22 +280,46 @@
     }
 }
 
-@media (max-device-width: 412px) and (max-device-height: 914px){
+@media (max-device-width: 412px) and (max-device-height: 915px){
     body, main {
-        height: 4632px;
-    }
-
-    main #home-principal {
-        height: 61vh;
+        height: 5026px;
     }
     
+    main #home-principal {
+        height: 75vh;
+    }
+
+    main #home-principal .image {
+        height: 121%;
+    }
+
+    main #nossa-história {
+        margin-bottom: -200px;
+    }
+
+    main #galeria-fotos{
+        height: 17%;
+    }
+    
+    main #galeria-fotos .foto {
+        height: 853px;
+    }
+
     main #galeria-fotos .seta {
-        top: 165%;
+        top: 186%;
     }
 
     main #galeria-fotos .direita {
-        right: -261px;
+        right: -731px;
     }
+
+    .info .quando h6 {
+        font-size: 15.5px;
+    }
+
+    .info .onde h6 {
+        font-size: 15.5px;
+    }    
 }
 
 @media (max-device-width: 390px) and (max-device-height: 844px) {
