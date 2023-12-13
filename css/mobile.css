@@ -394,6 +394,61 @@
     }
 }
 
+@media (max-device-width: 360px) and (max-device-height: 740px){
+    body, main {
+        height: 5082px;
+    }
+    
+    main #home-principal {
+        height: 84vh;
+    }
+    
+    main #home-principal .image {
+        height: 100%;
+    }
+    
+    #home-principal .image img {
+        width: 1280px;
+    }
+
+    main #home-principal .image h1 {
+        font-size: 40px;
+    }
+    
+    main #home-principal .image h2 {
+        font-size: 16px;
+    }
+
+    main #nossa-história .historia {
+        margin-top: -170px;
+        height: 63%;
+    }
+
+    main #galeria-fotos,
+    main #galeria-fotos .foto {
+        height: 115vh;
+    }
+
+    main #galeria-fotos .seta {
+        top: 253%;
+        font-size: 35px;
+    }
+
+    main #galeria-fotos .direita {
+        right: -806px;
+    }
+
+    iframe {
+        width: 645px;
+    }
+
+    main #lista-presentes .pix img {
+        width: 55%;
+    }
+
+    
+}
+
 @media (max-device-width: 320px){
     body, main {
         height: 4340px;
