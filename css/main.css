@@ -426,105 +426,41 @@ form button {
 
 @media (max-device-width: 1280px) and (max-device-height: 800px){
     body, main {
-        width: 1280px;
-        height: 4888px;
+        height: 4851px;
     }
-
+    
     main #home-principal {
+        width: 100%;
         height: 79vh;
     }
 
-    #galeria-fotos, 
+    .image img {
+        width: 100vw;
+    }
+
+    #galeria-fotos,
     #galeria-fotos .foto {
         height: 106vh;
     }
 
     #galeria-fotos .seta {
-        font-size: 50px;
-        top: 213%;
+        font-size: 70px;
+        top: 204%;
+    }
+
+    iframe {
+        width: 750px;
     }
 }
 
 @media (max-device-width: 1024px) and (max-device-height: 1366px){
     body, main {
-        height: 4888px;
-    }
-
-    main #home-principal {
-        height: 61vh;
-    }
-
-    main #home-principal .image {
-        height: 112%;
+        height: 4844px;
     }
     
-    #nossa-história .historia{
-        margin-top: 20px;
-    }
-
-    main #galeria-fotos .seta {
-        top: 102%;
-    }
-    #galeria-fotos {
-        height: 92vh;
-    }
-
-    #galeria-fotos,
-    #galeria-fotos .foto {
-        height: 49vh;
-    }
-}
-
-@media (max-device-width: 1024px) and (max-device-height: 600px){
-    body {
-        width: 1035px;
-    }
-
-    body, main {
-        height: 4503px;
-    }
-    
-    main #home-principal {
-        height: 76vh;
-    }
-
-    #galeria-fotos,
-    #galeria-fotos .foto {
-        height: 113vh;
-    }
-
-    main #galeria-fotos .seta {
-        top: 239%;
-    }    
-}
-
-@media (max-device-width: 820px) and (max-device-height: 1180px){
-    body, main {
-        height: 4294px;
-    }
-    
-    main #home-principal {
-        height: 31vh;
-    }
-
-    main #nossa-história {
-        height: 594px;
-    }
-
-    #galeria-fotos,
-    #galeria-fotos .foto {
-        height: 45vh;
-    }
-
-    main #galeria-fotos .seta {
-        top: 108%;
-    }   
-}
-
-@media (max-device-width: 1024px) {
     main #home-principal {
         width: 100%;
-        height: 90vh;
+        height: 37vh;
     }
     
     main #home-principal .image h1{
@@ -534,14 +470,113 @@ form button {
     main #home-principal .image h2{
         font-size: 17px;
     }
-
-    main #galeria-fotos .seta {
-        top: 243%;
+    
+    main #galeria-fotos,
+    main #galeria-fotos .foto {
+        height: 49vh;
     }
-
+    
+    main #galeria-fotos .seta {
+        top: 106%;
+    }
+    
     main #info-casamento .nosso-casamento .section-info .info {
         width: 70%;
+    }
+    
+    .pix img {
+        width: 294px;
+    }
+}
+
+@media (max-device-width: 1024px) and (max-device-height: 600px){
+    body, main {
+        height: 4549px;
+    }
+    
+    main #home-principal {
+        width: 100%;
+        height: 85vh;
+    }
+
+    .image img {
+        width: 100vw;
+    }
+
+    main #galeria-fotos, main #galeria-fotos .foto {
+        height: 114vh;
+    }
+
+    main #galeria-fotos .seta {
+        top: 239%;
+    }
+
+    iframe {
+        width: 750px;
+    }
+}
+
+@media (max-device-width: 912px) and (max-device-height: 1368px){
+    body, main {
+        height: 4408px;
+    }
+    
+    main #home-principal {
+        width: 100%;
+        height: 33vh;
+    }
+ 
+    #nossa-história .historia {
+        height: 91%;
+    }
+
+    #galeria-fotos,
+    #galeria-fotos .foto {
+        width: 100vw;
+        height: 44vh;
+    }
+
+    #galeria-fotos .seta {
+        top: 96%;
+    }
+
+    .pix img {
+        width: 250px;
+    }
+}
+
+@media (max-device-width: 820px) and (max-device-height: 1180px){
+    body, main {
+        width: 99.6%;
+        height: 4651px;
+    }
+
+    main #home-principal {
+        width: 100%;
+        height: 34vh;
     }    
+
+    main #nossa-história {
+        height: 612px;
+    }
+
+    main #nossa-história .historia {
+        height: 92%;
+    }
+
+    #galeria-fotos,
+    #galeria-fotos .foto {
+        height: 46vh;
+        width: 97vw;
+    }
+
+    main #galeria-fotos .seta {
+        top: 111%;
+    }
+
+    .pix img {
+        width: 237px;
+    }
 }
 
 @media (max-device-width: 768px) {
@@ -582,3 +617,4 @@ form button {
         font-size: 15px;
     }
 }
+
