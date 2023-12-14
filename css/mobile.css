@@ -1,6 +1,6 @@
 @media (max-device-width: 768px) and (max-device-height: 1024px){
     body, main {
-        height: 4289px;
+        height: 4319px;
     }
 
     main #home-principal {
@@ -24,58 +24,106 @@
     }
     
     main #galeria-fotos .seta {
-        top: 122%;
+        top: 129%;
     }
+
+    .info .onde h3 {
+        margin-top: -10px;
+    }
+
+    .info .quando h6,
+    .info .onde h6 {
+        font-size: 13px;
+    }
+
 }
 
 @media (max-device-width: 768px) {
     .navbar-menu {
         display: none;
     }
+
+    #lista-presentes h1 {
+        margin-bottom: 23px;
+    }
+
+    #lista-presentes .presentes {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-device-width: 540px) and (max-device-height: 720px) {
     body, main {
         width: 780px;
-        height: 4550px;
+        height: 4375px;
     }
 
     main #home-principal {
-        height: 75vh;
+        height: 81vh;
+    }
+
+    main #home-principal .image {
+        height: 67%;
+    }
+
+    .image img {
+        width: 145.7vw;
     }
 
     main #nossa-história {
         margin-bottom: -119px;
     }
-    
+
     main #nossa-história .historia {
         margin-top: -289px;
     }
 
     main #galeria-fotos {
-        height: 11%;
+        height: 519px;
+        width: 144vw;
     }
     
     main #galeria-fotos .foto {
-        height: 520px;
+        height: 519px;
+        width: 144vw;
     }
 
     main #galeria-fotos .seta {
-        top: 210%;
+        top: 188%;
     }
 
     main #galeria-fotos .direita {
         right: -169px;
     }
+
+    
+    #lista-presentes .background {
+        width: 144%;
+    }
+}
+
+@media (max-device-width: 425px) {
+    body, main {
+        width: fit-content;
+    }
 }
 
 @media (max-device-width: 430px) and (max-device-height: 932px) {
     body, main {
-        height: 4506px;
+        height: 4430px;
+        width: fit-content;
     }
     
     main #home-principal {
         height: 57vh;
+    }
+
+    main #home-principal .image {
+        height: 66%;
+    }
+
+    .image img {
+        width: 163.7vw;
     }
 
     main #nossa-história {
@@ -88,11 +136,13 @@
     }
     
     main #galeria-fotos {
-        height: 11%;
+        height: 10%;
+        width: 159vw;
     }
     
     main #galeria-fotos .foto {
-        height: 520px;
+        height: 456px;
+        width: 159vw;
     }
     
     main #galeria-fotos .seta {
@@ -100,7 +150,16 @@
     }
 
     main #galeria-fotos .direita {
-        right: -262px;
+        right: -214px;
+    }
+
+    .section-info h1,
+    .como-chegar h1 {
+        font-size: 35px;
+    }
+
+    #lista-presentes .background {
+        width: 162%;
     }
 
     #confirmar-presenca .text1 {
@@ -165,58 +224,98 @@
 
 @media (max-device-width: 414px) and (max-device-height: 896px){
     body, main {
-        height: 4592px;
+        height: 4373px;
+        width: fit-content;
+    }
+
+    main #home-principal {
+        width: 168vw;
     }
     
+    main #home-principal .image img{
+        width: 167.7vw;
+    }
+    
+    main #nossa-história {
+        width: 100%;
+    }
+    
+    main #nossa-história .historia{
+        margin-top: -180px;
+        height: 68%;
+    }
+
     main #galeria-fotos {
-        height: 522px;
+        height: 51vh;
+        width: 100%;
     }
     
     main #galeria-fotos .foto {
-        height: 58vh;
+        height: 51vh;
+        width: 163%;
     }
 
     main #galeria-fotos .seta {
-        top: 169%;
+        top: 153%;
         font-size: 52px;
     }
 
     main #galeria-fotos .direita {
-        right: -281px;
+        right: -247px;
+    }
+
+    .section-info h1 {
+        font-size: 35px;
+    }
+    
+    .como-chegar h1 {
+        font-size: 35px;
+    }
+
+    #lista-presentes .background {
+        width: 168%;
     }
 }
 
 @media (max-device-width: 412px) and (max-device-height: 915px){
     body, main {
-        height: 5026px;
+        height: 5055px;
+        width: 277vw;
     }
     
     main #home-principal {
-        height: 75vh;
+        height: 86vh;
     }
 
     main #home-principal .image {
-        height: 121%;
+        height: 74%;
+    }
+
+    .image img {
+        width: 277.7vw;
     }
 
     main #nossa-história {
-        margin-bottom: -200px;
+        margin-bottom: -47px;
     }
 
-    main #galeria-fotos{
-        height: 17%;
+    main #galeria-fotos {
+        height: 15%;
+        width: 277vw;
     }
-    
+
     main #galeria-fotos .foto {
-        height: 853px;
+        height: 761px;
+        width: 277vw;
     }
 
     main #galeria-fotos .seta {
-        top: 186%;
+        top: 212%;
+        font-size: 55px;
     }
 
     main #galeria-fotos .direita {
-        right: -731px;
+        right: -667px;
     }
 
     .info .quando h6 {
@@ -226,62 +325,109 @@
     .info .onde h6 {
         font-size: 15.5px;
     }    
+
+    #lista-presentes .background {
+        width: 278%;
+    }
 }
 
 @media (max-device-width: 390px) and (max-device-height: 844px) {
+    body, main {
+        width: fit-content;
+        height: 4839px;
+    }
+    
     main #home-principal {
-        height: 44vh;
+        height: 67vh;
+        width: 100%;
+    }
+    
+    main #home-principal .image {
+        height: 100%;
+        margin-top: -10px;
     }
 
-    main #galeria-fotos {
-        height: 518px;
+    main #home-principal .image img {
+        width: 275.7vw;
     }
-
+    
+    main #nossa-história {
+        margin-bottom: -143px;
+    }
+    
+    main #galeria-fotos,
     main #galeria-fotos .foto {
-        height: 61vh;
+        height: 85vh;
     }
 
     main #galeria-fotos .seta {
-        top: 185%;
-        font-size: 52px;
+        top: 202%;
+        font-size: 50px;
     }
 
     main #galeria-fotos .direita {
-        right: -302px;
+        right: -630px;
+    }
+
+    #lista-presentes h1 {
+        margin-bottom: 45px;
+    }
+
+    #lista-presentes .background {
+        width: 278%;
+    }
+
+    #lista-presentes .presentes {
+        flex-direction: column-reverse;
+        height: 71%;
     }
 }
 
 @media (max-device-width: 375px) and (max-device-height: 667px){
     body, main {
-        height: 4673px;
+        height: 4483px;
+        width: fit-content;
     }
 
     main #home-principal {
-        height: 59vh;
+        height: 62vh;
+        width: auto;
     }
 
+    main #home-principal .image {
+        margin-top: -77px;
+    }
+    
+    main #home-principal .image img {
+        width: 226vw;
+        margin-top: 80px;
+    }
+        
     main #nossa-história {
-        height: 900px;
+        height: 743px;
+        margin-top: 45px;
     }
     
     main #nossa-história .historia {
         margin-top: -30px;
     }
-
+    
     main #galeria-fotos{
-        height: 521px;
+        margin-top: -5px;
+        height: 557px;
     }
     
     main #galeria-fotos .foto {
-        height: 78vh;
+        height: 84vh;
+        width: 225vw;
     }
 
     main #galeria-fotos .seta {
-        top: 234%;
+        top: 202%;
     }
     
     main #galeria-fotos .direita {
-        right: -328px;
+        right: -410px;
     }
 
     main #info-casamento .como-chegar {
@@ -292,6 +438,10 @@
         margin-top: 28px;
     }
 
+    #lista-presentes .background {
+        width: 225%;
+    }
+    
     #confirmar-presenca h1 {
         font-size: 29px;
     }
@@ -302,43 +452,23 @@
     }
 }
 
-@media (max-device-width: 375px) and (max-device-height: 667px) {
-    main #home-principal {
-        height: 52vh;
-    }
-
-    main #galeria-fotos {
-        height: 472px;
-    }
-    
-    main #galeria-fotos .foto {
-        height: 64vh;
-    }
-
-    main #galeria-fotos .seta {
-        top: 213%;
-    }
-
-    main #galeria-fotos .direita {
-        right: -291px;
-    }
-}
 
 @media (max-device-width: 360px) and (max-device-height: 740px){
     body, main {
-        height: 5082px;
+        height: 4971px;
+        width: fit-content;
     }
     
     main #home-principal {
-        height: 84vh;
+        height: 86vh;
     }
     
     main #home-principal .image {
-        height: 100%;
+        height: 95%;
     }
     
-    #home-principal .image img {
-        width: 1280px;
+    main #home-principal .image img {
+        width: 323.7vw;
     }
 
     main #home-principal .image h1 {
@@ -349,6 +479,10 @@
         font-size: 16px;
     }
 
+    main #nossa-história {
+        margin-bottom: -141px;
+    }
+    
     main #nossa-história .historia {
         margin-top: -170px;
         height: 63%;
@@ -356,16 +490,21 @@
 
     main #galeria-fotos,
     main #galeria-fotos .foto {
-        height: 115vh;
+        height: 105vh;
+        width: 323vw;
     }
 
     main #galeria-fotos .seta {
-        top: 253%;
-        font-size: 35px;
+        top: 242%;
+        font-size: 68px;
     }
 
     main #galeria-fotos .direita {
-        right: -806px;
+        right: -748px;
+    }
+
+    #lista-presentes .background {
+        width: 323%;
     }
 
     iframe {
@@ -428,14 +567,15 @@
 
 @media (max-device-width: 280px) and (max-device-height: 653px){
     body, main {
-        height: 4522px;
+        height: 4482px;
     }
     
     main #home-principal {
-        height: 61vh;
+        height: 81vh;
     }
-
+    
     main #nossa-história {
+        margin-top: -80px;
         height: 872px;
     }
 
@@ -448,10 +588,14 @@
     }
 
     main #galeria-fotos .seta {
-        top: 216%;
+        top: 210%;
+    }
+
+    main #galeria-fotos .esquerda {
+        left: 55px;
     }
 
     main #galeria-fotos .direita {
-        right: -344px;
+        right: -554px;
     }
 }
